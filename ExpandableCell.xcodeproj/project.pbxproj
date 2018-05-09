@@ -12,6 +12,8 @@
 		2F00C7C620A34BEC00C53CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C7C420A34BEC00C53CC3 /* Main.storyboard */; };
 		2F00C7C820A34BEE00C53CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C7C720A34BEE00C53CC3 /* Assets.xcassets */; };
 		2F00C7CB20A34BEE00C53CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F00C7C920A34BEE00C53CC3 /* LaunchScreen.storyboard */; };
+		2F00C7D320A34C5400C53CC3 /* ExpandableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F00C7D220A34C5400C53CC3 /* ExpandableTableViewCell.swift */; };
+		2F00C7D520A34E1300C53CC3 /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F00C7D420A34E1300C53CC3 /* CellModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2F00C7C720A34BEE00C53CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F00C7CA20A34BEE00C53CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F00C7CC20A34BEE00C53CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F00C7D220A34C5400C53CC3 /* ExpandableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTableViewCell.swift; sourceTree = "<group>"; };
+		2F00C7D420A34E1300C53CC3 /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				2F00C7C020A34BEC00C53CC3 /* AppDelegate.swift */,
 				2F00C7C220A34BEC00C53CC3 /* ViewController.swift */,
+				2F00C7D220A34C5400C53CC3 /* ExpandableTableViewCell.swift */,
+				2F00C7D420A34E1300C53CC3 /* CellModel.swift */,
 				2F00C7C420A34BEC00C53CC3 /* Main.storyboard */,
 				2F00C7C720A34BEE00C53CC3 /* Assets.xcassets */,
 				2F00C7C920A34BEE00C53CC3 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				2F00C7C320A34BEC00C53CC3 /* ViewController.swift in Sources */,
 				2F00C7C120A34BEC00C53CC3 /* AppDelegate.swift in Sources */,
+				2F00C7D320A34C5400C53CC3 /* ExpandableTableViewCell.swift in Sources */,
+				2F00C7D520A34E1300C53CC3 /* CellModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
